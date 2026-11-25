@@ -1,0 +1,31 @@
+# Dependensi dan hasil build
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.local
+
+# Environment: hanya .env.example yang boleh di-commit
+.env
+.env.*
+!.env.example
+
+# Log
+logs/
+*.log
+npm-debug.log*
+
+# Editor dan sistem operasi
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data pribadi dan data asli: repo ini PUBLIK
+# (data contoh MSW dikarang sendiri, bukan ulasan Google asli)
+*.dump
+*.backup
+dataset_*.json
+data/mentah/

@@ -1,0 +1,14 @@
+# Simpan semua teks dengan akhir baris LF (CI dan hosting memakai Linux)
+* text=auto eol=lf
+
+# Skrip Windows tetap CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Berkas biner: jangan diubah
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.woff binary
