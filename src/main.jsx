@@ -9,3 +9,5 @@ createRoot(document.getElementById('root')).render(
     <StatusKerangka />
   </StrictMode>,
 );
+
+const tidakDipakai = 1;
