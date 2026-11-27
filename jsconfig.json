@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@components/*": ["./src/pages/components/*"],
+      "@layouts/*": ["./src/pages/layouts/*"],
+      "@user/*": ["./src/pages/user/*"],
+      "@admin/*": ["./src/pages/admin/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@apis/*": ["./src/utils/apis/*"],
+      "@hooks/*": ["./src/utils/hooks/*"],
+      "@stores/*": ["./src/utils/stores/*"],
+      "@helpers/*": ["./src/utils/helpers/*"],
+      "@data/*": ["./src/data/*"]
+    }
+  },
+  "include": ["src", "tests"]
+}
